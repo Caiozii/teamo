@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quer namorar comigo?</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      text-align: center;
+      margin-top: 200px;
+    }
+    
+    h1 {
+      color: #8a2be2;
+      font-size: 24px;
+    }
+    
+    button {
+      background-color: #8a2be2;
+      color: #ffffff;
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Quer namorar comigo?</h1>
+    <button id="sim">Sim</button>
+    <button id="nao">Não</button>
+  </div>
+
+  <script>
+    const simButton = document.getElementById('sim');
+    const naoButton = document.getElementById('nao');
+
+    naoButton.addEventListener('click', () => {
+      window.location.href = 'https://www.exemplo.com'; // Substitua o link 'https://www.exemplo.com' pelo link desejado
+    });
+  </script>
+</body>
+</html>
